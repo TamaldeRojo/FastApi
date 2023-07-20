@@ -28,9 +28,9 @@ def read_root():
         "usersGET":"/users",
         "usersGET_ID":"/users/id",
         "signup":"/signup",
+        "signin":"/signin",
         "exercisesGET":"/exercises",
-        "exercisesPOST":"/exercises",
-        "exercisesGET_ID":"/exercise/id"
+        "exercisesPOST":"/exercises"
         }"""
     json_urls = json.loads(urls)
     return json_urls
